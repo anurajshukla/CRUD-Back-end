@@ -8,7 +8,7 @@ var cors = require('cors')
 
 const MONGO_URL = process.env.MONGO_URL
 const PORT = process.env.PORT || 3000
-const FRONTEND = process.env.FRONTEND
+const FRONTEND = process.env.FRONTEND || "http://localhost:5173/"
 
 var corsOptions = {
     origin: FRONTEND,

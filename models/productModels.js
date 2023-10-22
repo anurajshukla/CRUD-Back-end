@@ -6,10 +6,9 @@ const productSchema = mongoose.Schema(
             type: String,
             required: [true, "Please enter a product name"]
         },
-        age: {
-            type: Number,
+        element: {
+            type: String,
             requred: true,
-            default: 0
         },
         image: {
             type: String,
